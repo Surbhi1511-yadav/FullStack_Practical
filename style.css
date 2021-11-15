@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./catwalk-opstelling-620x340.jpg);
+    
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+}
+h1{
+    color: white;
+    margin-left: -100px;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(red, green, hsl(73, 40%, 62%), alpha);
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: underline crimson;
+}
+
+.btn{
+    background-color: crimson;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid crimson;
+}
+.conatiner{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-top: 155px;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 54px;
+
+}
+p{
+    margin-top: 10px;
+    color: white;
+}
+.btn1{
+    margin-top: 20px;
+    background-color: crimson;
+    border-radius: 70%;
+    width: 10%;
+    padding: 25px;
+    border:2px solid crimson;
+    color: white;
+    font-size: 40px;
+}
+h3{
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    border:10px solid crimson;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    margin-left: 380px;
+    margin-top: 10px;
+}
